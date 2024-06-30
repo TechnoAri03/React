@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    color: rgb(32, 34, 34);
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(249, 159, 4);
+}
+
+.todo-form {
+    background-color: rgba(235, 246, 245, 0.67);
+    padding: 2%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    justify-content: center;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgb(120, 236, 149);
+}
+
+.todo-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px rgba(255, 123, 0, 0.418);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    /* padding: 5%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 0%;
+    padding-right: 3%;
+}
+
+.title label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.desc label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    height: 5px;
+    width: 4%;
+    padding-bottom: 1%;
+    align-items: center;
+    text-align: center;
+    padding-left: 41%;
+
+}
+
+#title {
+    padding-right: 7px padd;
+    padding-left: 0%;
+}
+
+.mytext {
+    height: 30px;
+    width: 300px;
+}
+
+.mydesc {
+    height: 30px;
+    width: 300px;
+}
+
+.primaryClass {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 252, 252);
+    border: 1px solid black;
+    border-style: calc();
+    border-radius: 4px;
+}
+
+.primaryClass:hover {
+    background-color: rgb(6, 235, 243);
+}
+
+/*--------------------------------todo list---------------------------------*/
+.todo_list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: rgb(255, 233, 184); */
+    text-align: center;
+    padding: auto;
+    margin-top: 3%;
+    padding-right: 4px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 490px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+h3 {
+    color: rgba(8, 109, 28, 0.838);
+    /* overflow-y: auto; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.todo_content p {
+    font-size: 20px;
+}
+
+.todo_content {
+    background-color: beige;
+    margin-bottom: 20px;
+    border: 2px solid rgb(240, 244, 4);
+    border-radius: 5px;
+
+
+}
+
+.icon {
+    padding-left: 900px;
+    font-size: 28px;
+
+}
+
+.icon:hover {
+    color: red;
+}
