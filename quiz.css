@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(249, 130, 3), white, green);
+    font-family: 'poppins';
+}
+
+.app {
+    border: 1px solid black;
+    /* margin: 1rem; */
+    /* margin-right: 55px; */
+    padding: 2rem 2rem;
+    text-align: center;
+    /* padding: auto; */
+    /* gap: 20px; */
+}
+
+.container {
+    width: 640px;
+    margin: 15px;
+    margin-top: 50px;
+    background: white;
+    color: rgb(10, 9, 9);
+    display: inline-block;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 56, 163);
+    padding: 40px 50px;
+    vertical-align: middle;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: gainsboro;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 3%;
+
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid rgb(130, 9, 242);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container button {
+    margin: 5px;
+    width: 250px;
+    height: 65px;
+    justify-content: end;
+    /* gap: 20px; */
+    background-image: linear-gradient(to bottom right, rgb(249, 130, 3), white, green);
+    border: 2px solid rgb(2, 34, 81);
+    color: rgb(244, 91, 3);
+    font-size: 25px;
+    font-weight: 500px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.container .index {
+    margin: auto;
+    font-size: 16px;
+}
+
+.container .correct {
+    background: rgb(157, 249, 182);
+    border-color: rgb(0, 67, 225);
+}
+
+.container .wrong {
+    background: rgb(255, 91, 91);
+    border-color: rgb(109, 70, 145);
+}
